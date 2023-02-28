@@ -23,7 +23,7 @@ const addHeaderImg = function (url) {
   headerImg.style.backgroundRepeat = "no-repeat";
   headerImg.style.backgroundPosition = "center center";
 }
-addHeaderImg('images/designer-making-design.png');
+addHeaderImg('./images/designer-making-design.png');
 
 // Adding categories Items
 const addCategoriesItem = function (text) {
@@ -55,12 +55,12 @@ const addNewCollection = function (name, f, img) {
   const newCollection = document.querySelector('.new-collection');
 
 
-  newCollection.style.backgroundImage = `url("/images/new-collection.jpg")`;
+  newCollection.style.backgroundImage = `url("${img}")`;
   newCollection.style.backgroundSize = "cover";
   newCollection.style.backgroundRepeat = "no-repeat";
   newCollection.style.backgroundPosition = "center center";
 }
-addNewCollection("Arrakis's Hero", "Man, Woman", "/images/new-collection.jpg");
+addNewCollection("Arrakis's Hero", "Man, Woman", "./images/new-collection.jpg");
 
 
 
