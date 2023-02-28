@@ -60,7 +60,8 @@ const addNewCollection = function (name, f, img) {
   newCollection.style.backgroundRepeat = "no-repeat";
   newCollection.style.backgroundPosition = "center center";
 }
-addNewCollection("Arrakis's Hero", "Man, Woman", "images/new-collection.jpg");
+
+addNewCollection("Arrakis's Hero", "Man, Woman", './images/new-collection.jpg');
 
 
 
