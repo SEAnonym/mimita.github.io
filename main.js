@@ -55,12 +55,12 @@ const addNewCollection = function (name, f, img) {
   const newCollection = document.querySelector('.new-collection');
 
 
-  newCollection.style.backgroundImage = `url("${img}")`;
+  newCollection.style.backgroundImage = `url(${img})`;
   newCollection.style.backgroundSize = "cover";
   newCollection.style.backgroundRepeat = "no-repeat";
   newCollection.style.backgroundPosition = "center center";
 }
-addNewCollection("Arrakis's Hero", "Man, Woman", "./images/new-collection.jpg");
+addNewCollection("Arrakis's Hero", "Man, Woman", "images/new-collection.jpg");
 
 
 
