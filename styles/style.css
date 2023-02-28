@@ -1,0 +1,175 @@
+:root {
+  /* Design Colors */
+  --main-color: orange;
+  --secondary-color: rgb(50, 42, 42);
+  --least-color: white;
+  /* Text Colors */
+  --main-text-color: black;
+  --secondary-text-color: white;
+  --least-text-color: grey;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px; /* 1rem = 16px */
+}
+
+body {
+  width: 120rem; /* 1920px */
+  height: 67.5rem; /* 1080px */
+}
+
+/* Upper Panel */
+.upper-panel {
+  /* FlexBox */
+  display: flex;
+}
+
+/* Full Left Side */
+
+.home-left-side {
+  /* FlexBox */
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* Navigation Bar */
+
+.navbar-categories {
+  height: 4rem; /* 64px */
+  width: 21rem; /* 336px */
+
+  /* FlexBox */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem; /* 20px */
+  margin-left: 1.25rem; /* 20px */
+
+  /* Text Style */
+  font-size: 1.25rem; /* 20px */
+  font-weight: bold;
+}
+.navbar-categories-item {
+  cursor: pointer;
+}
+
+/* Categories Bar */
+
+.main-categories {
+  height: 30rem; /* 480px */
+  width: 15rem; /* 240px */
+
+  /* FlexBox */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-left: 1.25rem; /* 20px */
+
+  /* Text Style */
+  font-size: 1.25rem; /* 20px */
+  color: rgba(0, 0, 0, 0.7);
+}
+.main-categories-item {
+  cursor: pointer;
+}
+/* Upper Panel Header */
+.upper-panel-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+/* Upper Panel Logo */
+.upper-panel-header .logo {
+  width: 13rem; /* 208px */
+  height: 5rem; /* 80px */
+  margin-top: 0.75rem;
+
+  /* FlexBox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Border Style */
+  border-radius: 3rem; /* 48px */
+  border: 0.08rem solid black;
+
+  /* Text Style */
+  font-size: 2rem; /* 32px */
+  font-weight: bold;
+}
+
+/* Upper Panel CAT */
+.upper-panel-header .call-to-action-btn {
+  width: 54rem; /* 864px */
+  height: 23rem; /* 368px */
+
+  /* FlexBox */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  /* Border Style */
+  border-radius: 3rem; /* 48px */
+}
+/* Call To Action Button "Create Your Own Design" */
+.call-to-action-btn button {
+  width: 17rem; /* 272px */
+  height: 3rem; /* 48px */
+  margin-bottom: 3rem;
+  background-color: var(--least-color);
+
+  /* Border Style */
+  border-radius: 3rem; /* 48px */
+  box-shadow: none;
+  border: 0;
+
+  /* Text Style */
+  font-size: 1.25rem; /* 20px */
+}
+
+/* New Collection */
+.new-collection {
+  width: 41rem; /* 656px */
+  height: 32rem; /* 512px */
+  margin: 0 auto 0 auto;
+  /* FlexBox */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  border-radius: 1.875rem;
+}
+
+/* New Collection Text */
+
+.new-collection div {
+  width: 26rem; /* 416px */
+  height: 6rem; /* 96px */
+  border-radius: 0 2.5rem 0 1.875rem;
+
+  /* FlexBox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1.25rem 5rem 1.25rem 1.25rem;
+
+  /* Font Style */
+  font-size: 1.5rem; /* 24px */
+  color: #928544;
+
+  /* Background blur */
+  backdrop-filter: blur(10px);
+}
