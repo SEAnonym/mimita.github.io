@@ -24,6 +24,7 @@ body {
 .upper-panel {
   /* FlexBox */
   display: flex;
+  justify-content: space-between;
 }
 
 /* Full Left Side */
@@ -137,6 +138,27 @@ body {
   /* Text Style */
   font-size: 1.25rem; /* 20px */
 }
+/* Right Side  */
+.home-right-side {
+  width: 23rem; /* 368px */
+  height: 38.75rem; /* 620px */
+}
+/* Right Side Navigation Bar */
+.right-side-navbar-categories {
+  height: 4rem; /* 64px */
+  width: 21rem; /* 336px */
+
+  /* FlexBox */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem; /* 20px */
+  margin-right: 1.25rem; /* 20px */
+
+  /* Text Style */
+  font-size: 1.25rem; /* 20px */
+  font-weight: bold;
+}
 
 /* New Collection */
 .new-collection {
@@ -172,4 +194,8 @@ body {
 
   /* Background blur */
   backdrop-filter: blur(10px);
+}
+
+.hidden {
+  display: none;
 }
