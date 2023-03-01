@@ -72,15 +72,16 @@ classLogo.addEventListener('click', () => {
     body.style.color = 'white';
     mainCategories.style.color = 'white';
     body.style.transition = '1s'
+    classLogo.style.borderColor = 'white';
   } else {
     i--;
     body.style.backgroundColor = 'white';
     body.style.color = 'black';
     mainCategories.style.color = 'var(--least-text-color)';
     body.style.transition = '1s'
+    classLogo.style.borderColor = 'black';
   }
 })
-
 
 // newsPage.addEventListener('click', function () {
 //   // Delete middle line
