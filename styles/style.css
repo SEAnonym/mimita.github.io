@@ -108,6 +108,8 @@ body {
   /* Text Style */
   font-size: 2rem; /* 32px */
   font-weight: bold;
+
+  cursor: pointer;
 }
 
 /* Upper Panel CAT */
